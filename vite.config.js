@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/robofriends',
+  base: '/robofriends/',
   css: {
     lightningcss: {
       errorRecovery: true, // This strips out invalid/outdated CSS hacks
